@@ -11,7 +11,7 @@
   max-width: 600px;
   margin: 50px auto;
   padding: 20px;
-  border: 3px solid red;
+
   border-radius: 10px;
   font-family: Arial, sans-serif;
   text-align: center;
@@ -20,7 +20,7 @@
 .description {
   margin-bottom: 20px;
   padding: 20px;
-  border: 2px solid blue;
+
   border-radius: 8px;
 }
 
@@ -31,13 +31,13 @@
 }
 
 .text {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .options {
   margin-bottom: 20px;
   padding: 20px;
-  border: 2px solid violet;
+
   border-radius: 8px;
   display: flex;
   gap: 10px;
@@ -47,9 +47,9 @@
 
 .options button {
   padding: 10px 20px;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 6px;
-  border: 1px solid gray;
+  border: 1px solid rgb(7, 0, 0);
   cursor: pointer;
   background-color: #f2f2f2;
   transition: background-color 0.3s ease;
@@ -62,7 +62,7 @@
 .feedback {
   margin-top: 20px;
   padding: 20px;
-  border: 2px solid orange;
+
   border-radius: 8px;
   text-align: left;
   font-size: 18px;
