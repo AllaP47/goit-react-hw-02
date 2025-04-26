@@ -1,0 +1,70 @@
+.card {
+  padding: 20px;
+  margin: 0;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.app {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 3px solid red;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.description {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid blue;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.options {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid violet;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.options button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  transition: background-color 0.3s ease;
+}
+
+.options button:hover {
+  background-color: #e0e0e0;
+}
+
+.feedback {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid orange;
+  border-radius: 8px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.6;
+}
