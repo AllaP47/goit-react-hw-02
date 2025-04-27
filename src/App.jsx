@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Description from './components/Description';
 import Feedback from './components/Feedback';
 import Options from './components/Options';
 import Notification from './components/Notification';
@@ -28,9 +29,8 @@ const App = () => {
   const positiveFeedback = totalFeedback > 0 ? Math.round((feedback.good / totalFeedback) * 100) : 0;
 
   return (
-    <div style={{ padding: '20px' }}>
-      <h1>Sip Happens Café</h1>
-      <p className='text'>Please leave your feedback about our service by selecting one of the options below.</p>
+   <div className="app">
+      <Description />
 
       <Options
         onLeaveFeedback={updateFeedback}
